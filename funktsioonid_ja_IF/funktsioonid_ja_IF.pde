@@ -53,11 +53,7 @@ void IFELSE(){
 
 
 
-int midaiganes(int a, int b){
-  int c;
-  c=a+b;
-  return c;
-}
+
 
 
 void kartul(){
@@ -68,4 +64,11 @@ void kartul(){
 void karTul(int a,int b){
   //funktsioon koos sisendväärtustega a ja b
   println(a+b);
+}
+
+int midaiganes(int a, int b){
+  //funktsioon, mis tagastab väärtusi
+  int c;     //määrame andmetüübi väärtusele, mida tagastame
+  c=a+b;     
+  return c;  //tagastame määratud väärtuse
 }
